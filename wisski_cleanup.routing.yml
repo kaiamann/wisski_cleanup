@@ -1,0 +1,8 @@
+wisski.wisski_cleanup:
+  path: '/admin/config/wisski/cleanup'
+  defaults:
+    _form: '\Drupal\wisski_cleanup\Form\CleanupForm'
+    _title: 'Cleanup'
+  requirements:
+    _permission: 'administer wisski'
+

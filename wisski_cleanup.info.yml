@@ -1,0 +1,11 @@
+name: WissKI Cleanup 
+description: A module to remove unused data from the tiplestore
+core: 8.x 
+package: WissKI
+# version: 0.1-dev
+type: module
+core_version_requirement: ^8 || ^9
+configure: wisski_unify.wissk_cleanup
+dependencies:
+  - wisski:wisski_core
+                                                                                                                                                                                                                 

@@ -1,0 +1,7 @@
+wisski.wisski_cleanup:
+  title: 'WissKI Cleanup'
+  description: 'Remove unused data from the triplestore'
+  parent: wisski.content
+  route_name: wisski.wisski_cleanup
+  weight: 100 
+
